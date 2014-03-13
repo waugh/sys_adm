@@ -1,0 +1,2 @@
+# Good if you need FTP.
+sudo apt-get install -y filezilla

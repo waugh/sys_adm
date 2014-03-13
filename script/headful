@@ -1,0 +1,7 @@
+# [headful]
+
+sudo apt-get install -y arandr
+sudo apt-get install -y gnome-terminal
+sudo apt-get install -y gedit
+sudo apt-get install -y gnome-system-monitor
+sudo apt-get install -y avahi-daemon

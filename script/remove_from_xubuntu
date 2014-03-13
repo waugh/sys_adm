@@ -1,0 +1,6 @@
+sudo apt-get remove -y w3m
+sudo apt-get remove -y pidgin
+sudo apt-get remove -y thunderbird
+sudo apt-get remove -y xfce4-taskmanager
+sudo apt-get remove -y abiword
+

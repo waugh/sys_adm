@@ -1,0 +1,1 @@
+find . -print | cpio -pmduv $w/adm/some_computer/adm/script
