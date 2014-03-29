@@ -1,0 +1,16 @@
+# sudo apt-get install -y filezilla
+  # I tried compiling a later version of FileZilla, because there was a case
+  # for which it wasn't working.  However, now I'm pretty sure that the problem
+  # was caused by a firewall.  In any event, maybe curlftpfs (loaded farther
+  # below) will adequately (and better) replace FileZilla.
+# Needed for compiling filezilla if download source and want to compile:
+if false
+then
+  sudo apt-get install -y libwxgtk2.8-dev
+  sudo apt-get install -y libidn11-dev
+  sudo apt-get install -y libgnutls-dev
+  sudo apt-get install -y libtinyxml-dev
+  sudo apt-get install -y libdbus-1-dev
+fi
+
+sudo apt-get install -y curlftpfs
