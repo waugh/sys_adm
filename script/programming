@@ -8,6 +8,7 @@ sudo apt-get install -y g++
 
 # PennStation 3
   # Ruby 1.9.2 for recent projects e. g. NCCRC.
+  # Install Ruby in user account (no superuser) using rbenv or similar tool.
 
 # PennStation 4 (PS4)
 
@@ -15,3 +16,10 @@ sudo apt-get install -y zlib1g-dev  # Already included from above or Xubuntu?
 sudo apt-get install -y libreadline-dev
 sudo apt-get install -y libssl-dev
 sudo apt-get install -y openssl     # Seems to be present already.
+if test -d /opt/tmp
+then
+  : fine
+else
+  sudo mkdir /opt/tmp # Needed for Warren's deploy procedures.
+  sudo chmod 777 /opt/tmp
+fi
