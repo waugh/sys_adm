@@ -1,0 +1,4 @@
+# Warren recommends downloading these tools from their web sites, not from the Ubuntu repos.
+
+# sudo apt-get install -y virtualbox
+# sudo apt-get install -y vagrant

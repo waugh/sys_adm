@@ -1,1 +1,1 @@
-sudo apt-get remove landscape-common
+sudo apt-get remove -y landscape-common
