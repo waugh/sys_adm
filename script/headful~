@@ -7,6 +7,4 @@ sudo apt-get install -y gnome-system-monitor
 sudo apt-get install -y avahi-daemon
 sudo apt-get install -y scrot
 sudo apt-get install -y synaptic
-sudo apt-get install -y chromium-browser # Now included??
-sudo apt-get install -y pepperflashplugin-nonfree
-sudo update-pepperflashplugin-nonfree --install
+

@@ -1,4 +1,2 @@
 sudo apt-get install -y xubuntu-desktop
-sudo apt-get install -y chromium-browser
-sudo apt-get install -y pepperflashplugin-nonfree
-sudo update-pepperflashplugin-nonfree --install
+
