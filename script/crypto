@@ -1,1 +1,2 @@
 sudo apt-get install -y python-gpgme # Dropbox wants.
+sudo apt-get install -y apg # a tool that I like; it gens passwords.
