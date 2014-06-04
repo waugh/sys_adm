@@ -23,3 +23,4 @@ else
   sudo mkdir /opt/tmp # Needed for Warren's deploy procedures.
   sudo chmod 777 /opt/tmp
 fi
+sudo apt-get install -y subversion
