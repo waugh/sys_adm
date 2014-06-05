@@ -10,3 +10,5 @@ sudo apt-get install -y synaptic
 sudo apt-get install -y chromium-browser # Now included??
 sudo apt-get install -y pepperflashplugin-nonfree
 sudo update-pepperflashplugin-nonfree --install
+echo To get the brightness controller, you have to go manually
+echo through the tool for installing extra software.
