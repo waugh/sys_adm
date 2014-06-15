@@ -1,3 +1,5 @@
 # Experimental.
 
-sudo apt-get install -y unionfs-fuse
+sudo apt-get install -y unionfs-fuse # Seems to work fine.
+
+sudo apt-get install -y transmission-cli transmission-daemon
