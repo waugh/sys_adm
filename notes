@@ -1,4 +1,6 @@
-cat <<'!'
+If loading boinc, consider linking /var/lib/boinc-client to somewhere on the
+big disk.
+
 Skype and Dropbox have to be downloaded by browsing to their
 respective web sites.  Remember to set whatever browser you use for this
 purpose, to ask about download directory instead of defaulting to some place
@@ -6,4 +8,3 @@ you don't want it to.
 
 You might want to touch /etc/hosts to point to anything in your network that has
 a fixed local address (servers, routers, modems, etc.).
-!
