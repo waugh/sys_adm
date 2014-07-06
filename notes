@@ -8,3 +8,8 @@ you don't want it to.
 
 You might want to touch /etc/hosts to point to anything in your network that has
 a fixed local address (servers, routers, modems, etc.).
+
+sudo debugfs /dev/sda6 -w -R "ssv max_mnt_count 1"
+sudo debugfs /dev/sda5 -w -R "ssv max_mnt_count 1"
+sudo debugfs /dev/sda8 -w -R "ssv max_mnt_count 1"
+
