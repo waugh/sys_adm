@@ -5,7 +5,7 @@ sudo apt-get install -y arandr
 sudo apt-get install -y gedit
 sudo apt-get install -y scrot
 sudo apt-get install -y synaptic
-# sudo apt-get install -y chromium-browser # Seems to have some troubles -- trying FF.
+sudo apt-get install -y chromium-browser
 sudo apt-get install -y pepperflashplugin-nonfree # might only apply to chrome?
 sudo update-pepperflashplugin-nonfree --install
 
