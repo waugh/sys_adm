@@ -24,3 +24,5 @@ else
   sudo chmod 777 /opt/tmp
 fi
 sudo apt-get install -y subversion
+
+sudo apt-get install -y nodejs
