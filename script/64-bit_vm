@@ -1,6 +1,0 @@
-# I have not tried this.
-# I believe qemu-kvm only works on a 64-bit machine with hardware support for
-# virtualization.  If you want a VM, you might do better with VirtualBox,
-# which works across several host operating systems.
-
-sudo apt-get install -y qemu-kvm

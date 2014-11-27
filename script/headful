@@ -2,7 +2,7 @@
 
 sudo apt-get install -y arandr
 # sudo apt-get install -y gnome-terminal
-sudo apt-get install -y gedit
+sudo apt-get install -y kate
 sudo apt-get install -y scrot
 sudo apt-get install -y synaptic
 sudo apt-get install -y chromium-browser
