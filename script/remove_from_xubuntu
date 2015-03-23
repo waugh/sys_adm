@@ -1,8 +1,9 @@
 sudo apt-get remove -y w3m
 sudo apt-get remove -y pidgin             # I don't use it.
-sudo apt-get remove -y thunderbird        # I just use web mail.
 sudo apt-get remove -y xfce4-taskmanager  # Use gnome-system-monitor instead.
-sudo apt-get remove -y abiword            # Use LibreOffice instead.
 sudo apt-get remove -y parole             # Use VLC instead.
 sudo apt-get remove -y gnome-sudoku
-
+sudo apt-get remove -y abiword            # Use LibreOffice instead.
+sudo apt-get remove -y abiword-common
+sudo apt-get remove -y libabiword-3.0
+sudo apt-get remove -y gnome-calculator		# I use dc
