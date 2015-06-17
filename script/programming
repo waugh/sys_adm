@@ -13,7 +13,7 @@ sudo apt-get install -y g++
 # PennStation 4 (PS4)
 
 sudo apt-get install -y zlib1g-dev  # Already included from above or Xubuntu?
-sudo apt-get install -y libreadline-dev
+sudo apt-get install -y libreadline6-dev
 sudo apt-get install -y libssl-dev
 sudo apt-get install -y openssl     # Seems to be present already.
 if test -d /opt/tmp
@@ -26,3 +26,13 @@ fi
 sudo apt-get install -y subversion
 
 sudo apt-get install -y nodejs
+
+# PS5
+
+# sudo apt-get install git-core # not needed; transitional dummy pkg.
+
+# Ruby?
+
+sudo apt-get install -y autoconf bison build-essential libyaml-dev \
+  libncurses5-dev libffi-dev libgdbm3 libgdbm-dev
+  // Called for in https://github.com/sstephenson/ruby-build/wiki
