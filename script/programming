@@ -25,7 +25,7 @@ else
 fi
 sudo apt-get install -y subversion
 
-sudo apt-get install -y nodejs
+sudo apt-get install -y nodejs npm
 
 # PS5
 
