@@ -1,9 +1,0 @@
-# I thought to try to build a minimal system with and X server, by starting
-# with a server installation and adding stuff but significantly less than
-# any distributed desktop system.  However, I never succeeded.
-
-if false
-  sudo apt-get install -y gnome-terminal
-  sudo apt-get install -y xmonad
-  sudo apt-get install -y xinit
-end
