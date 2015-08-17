@@ -2,3 +2,4 @@ sudo apt-get install -y xubuntu-restricted-extras
 # The above did bring in a flash-plugin installer.
 sudo apt-get install -y asunder
 sudo apt-get install -y gnome-alsamixer
+sudo apt-get install -y timidity
