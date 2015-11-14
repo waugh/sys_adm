@@ -4,6 +4,8 @@ sudo apt-get install -y openssh-server
 
 # For many purposes, wget suffices in place of curl. However, it looks as
 # though you can tell curl to use whatever DNS you want.
+# UPDATE: Looks can be deceiving. curl was compiled without the support for
+# that option.
 
-sudo apt-get install -y curl
+# sudo apt-get install -y curl
 
