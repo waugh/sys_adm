@@ -5,6 +5,7 @@ sudo apt-get install -y libsqlite3-dev # Rails wants to use by default?
 sudo apt-get install -y imagemagick libmagickcore-dev libmagickwand-dev
 sudo apt-get install -y git-svn
 sudo apt-get install -y g++
+sudo apt-get install -y sqlite3
 
 # PennStation 3
   # Ruby 1.9.2 for recent projects e. g. NCCRC.
