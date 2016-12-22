@@ -1,3 +1,5 @@
 sudo apt-get install -y gparted
 sudo apt-get install -y spell
 sudo apt-get install -y lynx
+sudo apt-get install -y gnumeric
+
