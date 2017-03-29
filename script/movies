@@ -1,8 +1,7 @@
-# https://help.ubuntu.com/community/RestrictedFormats
 sudo apt-get install -y xubuntu-restricted-extras
 sudo /usr/share/doc/libdvdread4/install-css.sh
+sudo apt install libdvdnav4 libdvdread4 gstreamer1.0-plugins-bad \
+  gstreamer1.0-plugins-ugly libdvd-pkg
+sudo dpkg-reconfigure libdvd-pkg
 sudo apt-get install -y vlc
-  # Parole sort of works, but sucks in regard to its use of screen space.
-  # Xubuntu brings in parole.  Not sure what Lubuntu brings in, but it needs
-  # all the above.
 
