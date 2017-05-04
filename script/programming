@@ -7,6 +7,10 @@ sudo apt-get install -y git-svn
 sudo apt-get install -y g++
 sudo apt-get install -y sqlite3
 
+# Sometimes when working on web sites, it is helpful to be able to do
+# rudimentary editing of pictures, e. g. cropping and scaling.
+sudo apt-get install -y gimp
+
 # PennStation 3
   # Ruby 1.9.2 for recent projects e. g. NCCRC.
   # Install Ruby in user account (no superuser) using rbenv or similar tool.
