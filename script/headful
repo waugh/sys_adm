@@ -1,5 +1,6 @@
 # [headful]
 
+sudo apt-get install -y xscreensaver
 sudo apt-get install -y arandr
 # sudo apt-get install -y gnome-terminal
 sudo apt-get install -y kate
