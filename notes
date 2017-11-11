@@ -9,17 +9,13 @@ you don't want it to.
 You might want to touch /etc/hosts to point to anything in your network that has
 a fixed local address (servers, routers, modems, etc.).
 
-sudo debugfs /dev/sda6 -w -R "ssv max_mnt_count 1"
-sudo debugfs /dev/sda5 -w -R "ssv max_mnt_count 1"
-sudo debugfs /dev/sda8 -w -R "ssv max_mnt_count 1"
-
 while read f
 do
   sudo debugfs $f -w -R "ssv max_mnt_count 1"
 done <<!
-/dev/mapper/x-root_0
+/dev/mapper/vg0-root_0
 /dev/sda5
-/dev/mapper/x-root_1
-/dev/mapper/x-local
+/dev/mapper/vg0-root_1
+/dev/mapper/vg0-local
 !
 
