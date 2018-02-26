@@ -2,10 +2,7 @@
 
 sudo apt-get install -y xscreensaver
 sudo apt-get install -y arandr
-# sudo apt-get install -y gnome-terminal
-sudo apt-get install -y kate
-# Keep both editors and use whichever seems to cause less trouble
-# according to how I evaluate them in my mood at any given moment.
+# sudo apt-get install -y kate
 sudo apt-get install -y gedit
 sudo apt-get install -y scrot
 sudo apt-get install -y synaptic
