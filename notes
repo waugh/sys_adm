@@ -13,9 +13,18 @@ while read f
 do
   sudo debugfs $f -w -R "ssv max_mnt_count 1"
 done <<!
-/dev/mapper/vg0-root_0
+/dev/sda6
+/dev/sda8
+/dev/sda9
 /dev/sda5
-/dev/mapper/vg0-root_1
-/dev/mapper/vg0-local
 !
+
+https://ubuntuforums.org/showthread.php?t=2349421
+
+cd
+sudo apt purge ttf-mscorefonts-installer
+path=http://ftp.de.debian.org/debian/pool/contrib/m/msttcorefonts
+path=$path/ttf-mscorefonts-installer_3.6_all.deb
+wget $path -P ~/Downloads
+sudo apt install ~/Downloads/ttf-mscorefonts-installer_3.6_all.deb
 
