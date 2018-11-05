@@ -1,7 +1,7 @@
 ./net_essential
 ./net_advanced
 ./programming
-./anyway
+./install_always
 ./missing_from_some
 ./headful
 ./sound
@@ -11,4 +11,6 @@
 ./office
 ./legacy
 ./missing_from_xubuntu_core
+
+./setup
 
